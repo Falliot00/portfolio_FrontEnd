@@ -1,0 +1,30 @@
+.cursor {
+  /*width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  mix-blend-mode: /*screen o difference (creo que prefiero screen);
+  transition: width 0.3s, height 0.3s, filter 0.3s;
+  background-color: rgba(255, 157, 0, 0.8);
+  filter: blur(50px) brightness(1) contrast(1) opacity(1);
+  -webkit-transition: width 0.3s, height 0.3s, transform 0.1s, background 0.3s;
+  -moz-transition: width 0.3s, height 0.3s, transform 0.1s, background 0.3s;
+  -ms-transition: width 0.3s, height 0.3s, transform 0.1s, background 0.3s;
+  -o-transition: width 0.3s, height 0.3s, transform 0.1s, background 0.3s;
+  */
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  background: radial-gradient(
+    circle,
+    rgba(255, 157, 0, 0.05) 1%,
+    transparent 70%
+  );
+  mix-blend-mode: screen;
+  transition: width 0.3s, height 0.3s, transform 0.1s, background 0.3s;
+}

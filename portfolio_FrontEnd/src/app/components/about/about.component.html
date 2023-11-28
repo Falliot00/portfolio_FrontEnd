@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<div
+  data-bs-spy="scroll"
+  data-bs-target="#navbar"
+  data-bs-offset="0"
+  tabindex="0"
+>
+  <div class="container" id="About">
+    <div class="row">
+      <h2 class="title2">About</h2>
+      <div
+        [ngClass]="{
+          'slide-in_left': description_isAnimated,
+          'hidden-content': description_hiddenContent
+        }"
+        class="description col-lg-6"
+      >
+        <span>
+          <p>
+            Junior Full Stack Developer and a Systems Information Engineering
+            student. My skill set encompasses front-end technologies like HTML,
+            CSS, JavaScript, and Bootstrap, along with TypeScript and Angular.
+            On the server side, I excel in Java and Spring Boot, managing MySQL
+            databases. I actively contribute to projects on GitHub and have
+            experience in C++. My focus on continuous learning and my passion
+            for technology drive me toward an exciting future in the world of
+            software development.
+          </p>
+        </span>
+      </div>
+      <div
+        [ngClass]="{
+          'slide-in_right': image_isAnimated,
+          'hidden-content': image_hiddenContent
+        }"
+        class="image col-lg-6"
+      >
+        <img
+          src="../../../assets/YoTrajeCompletoZoomx4.jpg"
+          class="img-fluid"
+          id="fotoDePerfil"
+        />
+      </div>
+    </div>
+  </div>
+</div>

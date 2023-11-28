@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<div
+  data-bs-spy="scroll"
+  data-bs-target="#navbar"
+  data-bs-offset="0"
+  tabindex="0"
+>
+  <div class="container" id="Projects">
+    <div class="row">
+      <h2 class="title2">Projects</h2>
+
+      <div id="project1" class="row">
+        <div
+          [ngClass]="{
+            'slide-in_left': image1_isAnimated,
+            'hidden-content': image1_hiddenContent
+          }"
+          class="project_image col d-flex justify-content-center align-items-center"
+        >
+          <a href="https://frontendfalliot.web.app/" target="_blank">
+            <img
+              src="../../../assets/Projects/proyect1.png"
+              class="img-fluid"
+            />
+          </a>
+        </div>
+        <div
+          [ngClass]="{
+            'slide-in_right': description1_isAnimated,
+            'hidden-content': description1_hiddenContent
+          }"
+          class="project_description col"
+        >
+          <a
+            class="text-decoration-none d-flex"
+            href="https://frontendfalliot.web.app/"
+            target="_blank"
+          >
+            <h2>Portfolio Modificable</h2>
+          </a>
+          <p>
+            Este es un proyecto el cual creándote un usuario podrás crear tu
+            Portfolio Digital.
+          </p>
+          <p>Mas texto</p>
+          <h3>Tools used:</h3>
+          <ul>
+            <li>Angular</li>
+            <li>Bootstrap</li>
+            <li>Java</li>
+            <li>Render</li>
+            <li>etc.</li>
+          </ul>
+          <div class="botones">
+            <a
+              class="btn btn-light"
+              target="_blank"
+              href="https://frontendfalliot.web.app/"
+              role="button"
+              >Open Site
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-external-link"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"
+                ></path>
+                <path d="M11 13l9 -9"></path>
+                <path d="M15 4h5v5"></path></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div id="project2" class="row">
+        <div
+          [ngClass]="{
+            'slide-in_left': image2_isAnimated,
+            'hidden-content': image2_hiddenContent
+          }"
+          class="project_image col d-flex justify-content-center align-items-center"
+        >
+          <a href="link de la web" target="_blank">
+            <img src="../../../assets/Projects/proyect2.png" />
+          </a>
+          <span>prueba</span>
+        </div>
+        <div
+          [ngClass]="{
+            'slide-in_right': description2_isAnimated,
+            'hidden-content': description2_hiddenContent
+          }"
+          class="project_description col"
+        >
+          <a
+            class="text-decoration-none d-flex"
+            href="link de la web"
+            target="_blank"
+          >
+            <h2>Project 2</h2>
+          </a>
+          <p>Description project 2</p>
+          <p>etc.</p>
+          <h3>Tools used:</h3>
+          <ul>
+            <li>Angular</li>
+            <li>Bootstrap</li>
+            <li>Java</li>
+            <li>Render</li>
+            <li>etc.</li>
+          </ul>
+          <div class="botones">
+            <a
+              class="btn btn-light"
+              target="_blank"
+              href="link de la web"
+              role="button"
+              >Open Site
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-external-link"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"
+                ></path>
+                <path d="M11 13l9 -9"></path>
+                <path d="M15 4h5v5"></path></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

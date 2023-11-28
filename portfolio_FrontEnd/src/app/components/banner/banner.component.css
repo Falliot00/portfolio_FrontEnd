@@ -1,0 +1,81 @@
+.row {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  color: #ffffff;
+}
+.profession {
+  background-image: linear-gradient(0deg, #f97316, #a6a8b0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.social a {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 8px;
+  border: 2px solid transparent;
+}
+.social span {
+  color: #d8d9dc;
+}
+.social a:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-color: #f97316;
+}
+
+.icon_dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 8px;
+  transition: transform 0.3s ease;
+}
+.icon_dropdown svg:hover {
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+.slide-in {
+  animation: slideInAnimation 400ms linear;
+  transform: translateX(0);
+  -webkit-animation: slideInAnimation 400ms linear;
+}
+
+@keyframes slideInAnimation {
+  from {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

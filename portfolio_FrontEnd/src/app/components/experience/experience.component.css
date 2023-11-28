@@ -1,0 +1,37 @@
+.container {
+  padding-top: 84px;
+  padding-bottom: 20px;
+}
+
+.experience1 .title-and-enterprise,
+.experience2 .title-and-enterprise {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.experience1,
+.experience2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.experience1 h2,
+.experience2 h2 {
+  font-size: 20px;
+  color: #fdba74;
+}
+
+.date {
+  font-size: 14px;
+  color: #fed7aa;
+}
+.enterprise {
+  font-size: 16px;
+  color: #fed7aa;
+}
+p {
+  font-size: 16px;
+  color: #d8d9dc;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
